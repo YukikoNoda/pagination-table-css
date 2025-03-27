@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
+.clinical-significance {
+    color: red;
+}
+
 .clinical-significance:before {
-    content: attr(data-value) "";
+    content: attr(data-value);
     width: 18px;
     line-height: 18px;
     height: 18px;
